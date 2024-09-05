@@ -1,3 +1,7 @@
+body {
+  margin: 2rem;
+}
+
 .header {
   font-size: 2rem;
   font-weight: bold;
@@ -34,4 +38,16 @@ td {
 
 thead {
   font-size: large;
+}
+
+.container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+section {
+  flex-basis: 66%;
+}
+aside {
+  flex-basis: 37%;
 }
