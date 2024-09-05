@@ -1,4 +1,37 @@
 .header {
-  font-size: large;
+  font-size: 2rem;
   font-weight: bold;
+  font-style: italic;
+}
+
+#navbar {
+  background-color: red;
+}
+
+#navbar ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+
+#navbar li a:hover {
+  color: #272343;
+}
+
+table {
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+th,
+td {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+thead {
+  font-size: large;
 }
