@@ -4,6 +4,7 @@ html {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color: #b1bed5;
 }
 
 body {
@@ -35,7 +36,6 @@ header {
   display: flex;
   gap: 1.5rem;
   list-style-type: none;
-
   padding: 0;
 }
 
@@ -119,4 +119,9 @@ textarea:invalid {
 input:valid,
 textarea:valid {
   border: 2px solid rgb(38, 182, 105);
+}
+
+footer > ul {
+  display: flex;
+  gap: 1rem;
 }
